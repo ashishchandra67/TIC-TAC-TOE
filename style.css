@@ -26,11 +26,9 @@
         margin-top: -47px;
         display: inline-block;
     }
-    
+   
 
-    .container {
-        height: 70vh;
-    }
+   
 
     .game {
         display: flex;
@@ -52,4 +50,14 @@
         border-radius: 1rem;
         border: none;
         box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1)
+    }
+    div .reset-btn{
+        background-color: #0c7ccc;
+        border-radius: 20px;
+        border: 1px solid black;
+        height: 5vmin;
+        width: 20vmin;
+        transform: translateX(420%);
+        margin-top: 6vmin;
+        font-size: larger;
     }
