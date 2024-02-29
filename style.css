@@ -38,26 +38,39 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 1.5vmin;
-        margin-top: 50px ;
+        margin-top: 40px ;
         margin-left: 400px;
     }
+    
 
-    #box {
+    .box {
         width: 18vmin;
         height: 18vmin;
         color: red;
         font-size: 56px;
         border-radius: 1rem;
         border: none;
-        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1)
+        box-shadow: 10px 7px 14px  rgba(0, 0, 0, 0.34);
+        background-color: rgb(248, 230, 194);
     }
-    div .reset-btn{
-        background-color: #0c7ccc;
-        border-radius: 20px;
+    .reset-btn{
+        background-color: #44c4b9;
+        margin-top: 3px;
         border: 1px solid black;
         height: 5vmin;
         width: 20vmin;
         transform: translateX(420%);
-        margin-top: 6vmin;
+        margin-top: 3vmin;
         font-size: larger;
     }
+    .Newgame{
+        display: inline  ;
+        background-color: #44c4b9;
+        margin : 5px 5px 0px 520px ;
+        border: 1px solid black;
+        height: 6vmin;
+        width: 25vmin;
+        font-size: larger;
+        
+    }
+    
