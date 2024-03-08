@@ -1,11 +1,13 @@
     * {
         padding: 0px;
         margin: 0px;
-        
+
     }
-    body{
-        background-color:#54B8C7;
+
+    body {
+        background-color: #54B8C7;
     }
+
     nav {
         height: 100px;
         background-color: #0E616D;
@@ -14,21 +16,21 @@
 
     nav img {
         border-radius: 50%;
-        margin-left:  40px;
+        margin-left: 40px;
         margin-top: 30px;
     }
 
     nav center {
         text-align: center;
-        font-weight: 900;
-        font-size: 25px;
-        margin-left:  350px;
-        margin-top: -47px;
+        font-weight: bolder;
+        font-size: 45px;
+        margin-left: 290px;
+        margin-top: 30px;
         display: inline-block;
     }
-   
 
-   
+
+
 
     .game {
         display: flex;
@@ -38,10 +40,10 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 1.5vmin;
-        margin-top: 40px ;
+        margin-top: 40px;
         margin-left: 400px;
     }
-    
+
 
     .box {
         width: 18vmin;
@@ -50,27 +52,47 @@
         font-size: 56px;
         border-radius: 1rem;
         border: none;
-        box-shadow: 10px 7px 14px  rgba(0, 0, 0, 0.34);
-        background-color: rgb(248, 230, 194);
+        box-shadow: 10px 7px 14px rgba(0, 0, 0, 0.34);
+        background-color: rgb(216, 194, 149);
     }
-    .reset-btn{
+
+    .reset-btn {
+        display: inline;
         background-color: #44c4b9;
-        margin-top: 3px;
-        border: 1px solid black;
-        height: 5vmin;
-        width: 20vmin;
-        transform: translateX(420%);
-        margin-top: 3vmin;
-        font-size: larger;
-    }
-    .Newgame{
-        display: inline  ;
-        background-color: #44c4b9;
-        margin : 5px 5px 0px 520px ;
+        margin: 55px 0px 0px 500px;
         border: 1px solid black;
         height: 6vmin;
         width: 25vmin;
-        font-size: larger;
-        
+        font-size: 25px;
+    }
+
+    #Newgame {
+        display: inline;
+        background-color: #44c4b9;
+        margin: 30px 0px 0px 500px;
+        border: 1px solid black;
+        height: 6vmin;
+        width: 25vmin;
+        font-size: 25px;
+       
+
     }
     
+    .msg-container{
+        height: 20vmin;
+      
+        
+    }
+
+    #msg {
+        text-align: center;
+        margin-right: 130px;
+        padding-top: 20px;
+        font-weight: bolder;
+        font-size: 6vmin;
+        color: wheat;
+    
+    }
+    .hide {
+        display: none;
+    }

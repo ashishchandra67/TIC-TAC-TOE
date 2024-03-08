@@ -10,15 +10,21 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="" alt="logo ">
-            <center>TIC TAC TOE GAME </center>
-        </nav>
-    </header>
-
     <main>
-        <button class="Newgame "> New Game </button>
+        <header>
+            <nav>
+                <img src="" alt="logo ">
+                <center>TIC TAC TOE GAME </center>
+            </nav>
+        </header>
+
+        <div class="msg-container hide ">
+            <p id="msg">  </p>
+            <button id="Newgame"> New Game! </button>
+
+
+        </div>
+
         <div class="container">
             <div class="game">
                 <button class="box""></button>
@@ -34,7 +40,7 @@
 
         </div>
         <div id=" reset-btn">
-                    <button class="reset-btn"> Reset Game </button>
+                    <button class="reset-btn" > Reset Game </button>
             </div>
     </main>
     <script src="app.js"></script>
